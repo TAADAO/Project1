@@ -1,0 +1,120 @@
+body {
+    background-image: url("../imgs/bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: pink;
+}
+
+#fader{
+    background-color: black;
+    opacity: .8;
+    width: 100%;
+    height: 100vh;
+}
+#mainContent {
+    position: relative;
+    width: 85vw;
+    height: 76vh;
+    top: 5%;
+    min-width: 701px;
+    min-height: 720px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, #ff51b1, #3a3a3a);
+    background: -o-linear-gradient(top, #ff51b1, #3a3a3a);
+    background: -moz-linear-gradient(top, #ff51b1, #3a3a3a);
+    background: linear-gradient(top, #ff51b1, #3a3a3a);
+}
+.btn {
+    border: none;
+    background-color: #3a3a3a;
+    width: 50%;
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.btn:hover{
+    background-color: #eb92a1;
+}
+.timer {
+    font-size: 75px;
+    line-height: 110%;
+}
+.PPS-buttons {
+    color: #eb92a1;
+}
+.data-box {
+    margin-left: 10px; 
+    width: 85%;
+    height: 100%;
+    background-color: #eb92a1;
+    border: 1px solid #3a3a3a;
+}
+.set {
+    margin-top: 15px;
+}
+.musicCtrl {
+    font-size: 30px;
+    margin: 5px;
+    padding-right: 12px;
+    border-right: 1px solid #3a3a3a;
+}
+.musicCtrl:last-child{
+    border: none;
+}
+
+.dropbtn {
+    top: 50%;
+    background-color: #3a3a3a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #3a3a3a;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #eb92a1;
+    }
+  
+  .show {
+      display: block;
+    }
+
+    #play:hover, #pause:hover, #stop:hover{
+        color: #a1308e;
+    }
+
+    .modal-title {
+        color:  #a1308e;
+    }
+    
+        .form-group {
+            color: #a1308e;
+        }
+    
